@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="pref_camera_default">-1</integer>
+    <integer name="pref_frontCamera_true">1</integer>
+    <integer name="pref_frontCamera_false">-1</integer>
+</resources>

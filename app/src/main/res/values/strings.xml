@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QRScaner</string>
+    <!-- Label for the size preference -->
+    <string name="pref_url_label">Base URL</string>
+
+    <!-- Key name for storing size in SharedPreferences -->
+    <string name="pref_url_key" translatable="false">url</string>
+
+    <!-- Default for size preference -->
+    <string name="pref_url_default" translatable="false">https://coba.com</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="pref_send_false">false</string>
+    <string name="pref_send_true">true</string>
+    <string name="pref_send_key">value</string>
+    <string name="pref_send_lable">Sending Value</string>
+
+    <string name="pref_flash_false">false</string>
+    <string name="pref_flash_true">true</string>
+    <string name="pref_flash_key">auto_focus</string>
+    <string name="pref_flash_lable">Flash</string>
+
+    <string name="pref_frontCamera_false">false</string>
+    <string name="pref_frontCamera_true">true</string>
+    <string name="pref_frontCamera_key">front_camera</string>
+    <string name="pref_frontCamera_lable">Use Front Camera</string>
+
+</resources>

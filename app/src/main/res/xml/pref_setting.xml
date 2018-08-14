@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_send_default"
+        android:key="@string/pref_send_key"
+        android:summaryOn="@string/pref_send_true"
+        android:summaryOff="@string/pref_send_false"
+        android:title="@string/pref_send_lable"/>
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_flash_default"
+        android:key="@string/pref_flash_key"
+        android:summaryOn="@string/pref_flash_true"
+        android:summaryOff="@string/pref_flash_false"
+        android:title="@string/pref_flash_lable"/>
+    <CheckBoxPreference
+        android:defaultValue="@bool/pref_frontCamera_default"
+        android:key="@string/pref_frontCamera_key"
+        android:summaryOn="@string/pref_frontCamera_true"
+        android:summaryOff="@string/pref_frontCamera_false"
+        android:title="@string/pref_frontCamera_lable"/>
+    <EditTextPreference
+        android:defaultValue="@string/pref_url_default"
+        android:key="@string/pref_url_key"
+        android:title="@string/pref_url_label" />
+
+</PreferenceScreen>
